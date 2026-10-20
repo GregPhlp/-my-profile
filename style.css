@@ -1,0 +1,120 @@
+/* =====================================================
+   1. ÉLÉMENTS
+   ===================================================== */
+
+body {
+  background-color: #F8F9FC;           
+  color: #555A7B;                       
+  font-family: "Lora", Georgia, serif;
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0px 20px;
+}
+
+
+h1, h2, h3 {
+  font-family: "Roboto", Helvetica, sans-serif;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+h1 {
+  color: #555A7B;
+  font-size: 40px;
+  margin-top: 0;
+}
+
+h2 {
+  color: #8FCB8F;                   
+  font-size: 28px;
+  margin-top: 0;
+}
+
+
+a {
+  color: #6C6FDB;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #FF6B6B;
+}
+
+
+
+
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+}
+
+/* Centre le texte */
+.text-center {
+  text-align: center;
+}
+
+/* Carte blanche */
+.card-white {
+  background-color: white;
+  padding: 40px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+/* Image ronde */
+.img-circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+
+.btn-purple {
+  display: inline-block;                
+  background-color: #6C6FDB;
+  color: white;
+  font-family: "Roboto", Helvetica, sans-serif;
+  font-weight: 700;
+  padding: 15px 35px;
+  margin-top: 10px;                     
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
+}
+
+/
+.btn-purple:hover {
+  background-color: #5558C9;
+  color: white;
+}
+
+
+.list-inline {
+  list-style: none;                    
+  padding-left: 0px;                   
+  margin: 0;
+}
+
+.list-inline > li {
+  display: inline;                      
+  padding: 0px 15px;                    
+
+.list-inline > li > a {
+  font-size: 32px;                      
+}
+
+
+/* =====================================================
+   3. SÉLECTEURS DESCENDANTS : ajustements d'espacement
+   ===================================================== */
+
+.card-white p {
+  margin: 25px 0px;                     
+}
+
+.card-white p:last-child {
+  margin-bottom: 0;
+}
